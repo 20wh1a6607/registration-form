@@ -41,7 +41,9 @@ cd<localdir> #to the location where the file of exercise1 is stored.
 • git remote add origin <git hub repository url>
 • git push –u origin main / git push origin HEADl:master
 
-
+git init
+git add
+git commit –m “commit message”
 
 git status
 
