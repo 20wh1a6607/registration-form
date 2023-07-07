@@ -32,3 +32,58 @@ Phone :
 Address
 <br>
 <textarea cols="80" rows="5" value="address">
+
+
+cd<localdir> #to the location where the file of exercise1 is stored.
+• git init #initializes empty git repository on the location.
+• git add . #adds all the files to the staging area
+• git commit –m “initial commit”
+• git remote add origin <git hub repository url>
+• git push –u origin main / git push origin HEADl:master
+
+
+
+git status
+
+git config –global user.name “any username”
+git config –global user.email<email id>
+
+#create a new branch
+git branch <branch_name>
+#list all remote or local branches
+git branch –a
+#delete a branch
+git branch –d <branch_name>
+
+#checkout an existing branch
+git checkout <branch_name>
+#checkout and create a new branch with that name
+git checkout –b<new_branch>
+
+git merge <branch_name>
+
+git remote add origin <address>
+
+git clone <remote_URL>
+
+git pull <branch_name> <remote URL>
+
+git push –u origin master
+
+#store current work with untracked files
+Git stash –u
+#bring stashed work back to the working directory
+Git stash pop
+
+git log
+
+
+
+
+
+
+
+
+
+
+
