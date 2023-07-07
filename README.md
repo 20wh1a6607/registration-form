@@ -70,10 +70,6 @@ git pull <branch_name> <remote URL>
 
 git push –u origin master
 
-#store current work with untracked files
-Git stash –u
-#bring stashed work back to the working directory
-Git stash pop
 
 git log
 
