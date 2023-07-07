@@ -1,7 +1,7 @@
 <Html>
 <head>
 <title>
-Registration Page for Science Fair
+Registration Form
 </title>
 </head>
 <body bgcolor="Lightskyblue">
